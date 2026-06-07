@@ -1,44 +1,44 @@
 # pet-reservation-app
 
-This template should help get you started developing with Vue 3 in Vite.
+반려동물 예약 관리 앱 — Vue 3, Vite, Pinia, Vue Router로 구성된 SPA입니다.
 
-## Recommended IDE Setup
+## 기술 스택
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3** (Composition API)
+- **Vite** — 빠른 개발 서버 및 빌드
+- **Pinia** — 상태 관리
+- **Vue Router** — 클라이언트 사이드 라우팅
 
-## Recommended Browser Setup
+## 개발 환경 설정
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) 확장 설치를 권장합니다.
 
-## Customize configuration
+브라우저 디버깅을 위해 [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)를 설치하세요.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## 프로젝트 설정
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 개발 서버 실행 (Hot-Reload)
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 프로덕션 빌드
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### 린트
 
 ```sh
 npm run lint
 ```
+
+## Vite 설정 참고
+
+[Vite Configuration Reference](https://vite.dev/config/)

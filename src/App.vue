@@ -1,11 +1,28 @@
-<script setup></script>
+<script setup>
+import AppNav from '@/components/AppNav.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <AppNav />
+  <RouterView />
 </template>
 
-<style scoped></style>
+<style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Pretendard',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  background: #f9fafb;
+  color: #111;
+}
+</style>

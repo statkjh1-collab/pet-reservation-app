@@ -21,7 +21,20 @@
       "Bash(gh browse *)",
       "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('.claude/settings.local.json','utf8'\\)\\); console.log\\('valid json'\\)\")",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(ls -la \"C:/Users/jiwon/Projects/tmp/\" 2>/dev/null)",
+      "Bash(cat .vercel/project.json)",
+      "Bash(cat .npmrc)",
+      "Read(//c/Users/jiwon/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/6be2d18d-7e99-4d9f-97ca-51390521bd54/f1847672-1666-4747-a9c2-c24afbbb2d6d/skills/docx/**)",
+      "Bash(extract-text \"C:\\\\Users\\\\jiwon\\\\Downloads\\\\펫그루밍_온보딩_예창패_사업계획서.docx\")",
+      "Bash(pandoc --version)",
+      "Bash(python \"C:\\\\Users\\\\jiwon\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\6be2d18d-7e99-4d9f-97ca-51390521bd54\\\\f1847672-1666-4747-a9c2-c24afbbb2d6d\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"C:\\\\Users\\\\jiwon\\\\Downloads\\\\펫그루밍_온보딩_예창패_사업계획서.docx\" \"C:\\\\Users\\\\jiwon\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jiwon-Projects-tmp-pet-reservation-app\\\\fe00b3a6-2903-42f1-b9bd-0e50d53ffbb2\\\\scratchpad\\\\unpacked\")",
+      "Bash(where py *)",
+      "Bash(py --version)",
+      "Read(//c/Users/jiwon/AppData/Local/Programs/**)",
+      "Bash(unzip -o 'C:\\\\Users\\\\jiwon\\\\Downloads\\\\펫그루밍_온보딩_예창패_사업계획서.docx' -d 'C:\\\\Users\\\\jiwon\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jiwon-Projects-tmp-pet-reservation-app\\\\fe00b3a6-2903-42f1-b9bd-0e50d53ffbb2\\\\scratchpad/unpacked')",
+      "Bash(node \"C:\\\\Users\\\\jiwon\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jiwon-Projects-tmp-pet-reservation-app\\\\fe00b3a6-2903-42f1-b9bd-0e50d53ffbb2\\\\scratchpad\\\\extract.js\")"
     ]
   }
 }

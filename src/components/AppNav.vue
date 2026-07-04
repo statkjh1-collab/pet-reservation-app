@@ -4,6 +4,7 @@
     <div class="nav-links">
       <RouterLink to="/">홈</RouterLink>
       <RouterLink to="/reservations">예약 목록</RouterLink>
+      <RouterLink to="/admin">관리자</RouterLink>
       <RouterLink to="/reservations/new" class="btn-primary">+ 새 예약</RouterLink>
     </div>
   </nav>

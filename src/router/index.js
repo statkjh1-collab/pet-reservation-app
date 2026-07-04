@@ -7,6 +7,7 @@ const router = createRouter({
     { path: '/', component: HomeView },
     { path: '/reservations', component: () => import('@/views/ReservationListView.vue') },
     { path: '/reservations/new', component: () => import('@/views/ReservationNewView.vue') },
+    { path: '/admin', component: () => import('@/views/AdminView.vue') },
   ],
 })
 

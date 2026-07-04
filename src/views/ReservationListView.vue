@@ -47,35 +47,26 @@ import { computed } from 'vue'
     <div v-else class="cards">
       <div class="card" v-for="r in filtered" :key="r.id">
         <div class="card-top">
-          <div>
+          <div v-if="r.type === 'rental'">
+            <span class="dog-name">🏢 {{ r.space }}</span>
+          </div>
+          <div v-else>
             <span class="dog-name">{{ r.dogName }}</span>
             <span class="breed">{{ r.breed }}</span>
           </div>
           <span :class="['badge', statusClass[r.status]]">{{ r.status }}</span>
         </div>
-        <div class="card-info">
+        <div v-if="r.type === 'rental'" class="card-info">
+          <span>📅 {{ r.date }} {{ r.startTime }}–{{ r.endTime }}</span>
+          <span>👤 {{ r.renterName }} · {{ r.renterPhone }}</span>
+        </div>
+        <div v-else class="card-info">
           <span>📅 {{ r.date }} {{ r.time }}</span>
           <span>✂️ {{ r.service }}</span>
           <span>👤 {{ r.ownerName }} · {{ r.phone }}</span>
         </div>
-        <p v-if="r.notes" class="notes">{{ r.notes }}</p>
-        <div class="card-actions">
-          <button
-            v-if="r.status === '대기중'"
-            class="btn-confirm"
-            @click="store.updateStatus(r.id, '확정')"
-          >
-            확정
-          </button>
-          <button
-            v-if="r.status !== '취소'"
-            class="btn-cancel"
-            @click="store.updateStatus(r.id, '취소')"
-          >
-            취소
-          </button>
-          <button class="btn-delete" @click="store.deleteReservation(r.id)">삭제</button>
-        </div>
+        <p v-if="r.type === 'rental' && r.purpose" class="notes">{{ r.purpose }}</p>
+        <p v-else-if="r.notes" class="notes">{{ r.notes }}</p>
       </div>
     </div>
   </main>
@@ -209,33 +200,4 @@ import { computed } from 'vue'
   margin: 0.5rem 0;
 }
 
-.card-actions {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 0.75rem;
-}
-
-.card-actions button {
-  padding: 0.3rem 0.9rem;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
-.btn-confirm {
-  background: #d1fae5;
-  color: #059669;
-}
-
-.btn-cancel {
-  background: #fef3c7;
-  color: #d97706;
-}
-
-.btn-delete {
-  background: #fee2e2;
-  color: #dc2626;
-}
 </style>

@@ -38,6 +38,16 @@ const store = useReservationStore()
         </div>
       </div>
     </section>
+
+    <section class="rental-banner">
+      <div class="rental-text">
+        <h2>🏢 미용사이신가요?</h2>
+        <p>장비를 갖춘 스튜디오를 시간 단위로 대여해 실습하거나 창업을 준비해보세요.</p>
+      </div>
+      <RouterLink to="/reservations/new?type=rental" class="btn-cta btn-cta-outline">
+        공간 대여하기
+      </RouterLink>
+    </section>
   </main>
 </template>
 
@@ -146,5 +156,41 @@ const services = [
   color: #6b7280;
   font-size: 0.9rem;
   margin: 0;
+}
+
+.rental-banner {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background: #111;
+  color: #fff;
+  border-radius: 14px;
+  padding: 1.75rem 2rem;
+}
+
+.rental-text h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.rental-text p {
+  color: #d1d5db;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.btn-cta-outline {
+  flex-shrink: 0;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 0.7rem 1.5rem;
+}
+
+.btn-cta-outline:hover {
+  background: #fff;
+  color: #111;
 }
 </style>

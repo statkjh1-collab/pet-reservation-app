@@ -34,7 +34,14 @@
       "Bash(py --version)",
       "Read(//c/Users/jiwon/AppData/Local/Programs/**)",
       "Bash(unzip -o 'C:\\\\Users\\\\jiwon\\\\Downloads\\\\펫그루밍_온보딩_예창패_사업계획서.docx' -d 'C:\\\\Users\\\\jiwon\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jiwon-Projects-tmp-pet-reservation-app\\\\fe00b3a6-2903-42f1-b9bd-0e50d53ffbb2\\\\scratchpad/unpacked')",
-      "Bash(node \"C:\\\\Users\\\\jiwon\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jiwon-Projects-tmp-pet-reservation-app\\\\fe00b3a6-2903-42f1-b9bd-0e50d53ffbb2\\\\scratchpad\\\\extract.js\")"
+      "Bash(node \"C:\\\\Users\\\\jiwon\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jiwon-Projects-tmp-pet-reservation-app\\\\fe00b3a6-2903-42f1-b9bd-0e50d53ffbb2\\\\scratchpad\\\\extract.js\")",
+      "mcp__claude-in-chrome__tabs_context_mcp",
+      "mcp__claude-in-chrome__navigate",
+      "mcp__claude-in-chrome__get_page_text",
+      "mcp__claude-in-chrome__find",
+      "mcp__claude-in-chrome__computer",
+      "mcp__claude-in-chrome__browser_batch",
+      "mcp__claude-in-chrome__form_input"
     ]
   }
 }

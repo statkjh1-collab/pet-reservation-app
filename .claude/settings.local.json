@@ -3,7 +3,25 @@
     "allow": [
       "Bash(gh auth *)",
       "PowerShell(gh auth status 2>&1)",
-      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); gh auth status 2>&1)"
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); gh auth status 2>&1)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm create *)",
+      "WebSearch",
+      "Bash(npm run *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(git -C \"/workspaces/pet-reservation-app\" remote -v)",
+      "Bash(git -C \"/workspaces/pet-reservation-app\" status)",
+      "Bash(npx vercel *)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(npm install *)",
+      "Bash(git checkout *)",
+      "Bash(gh repo *)",
+      "mcp__Claude_in_Chrome__navigate",
+      "Bash(gh browse *)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('.claude/settings.local.json','utf8'\\)\\); console.log\\('valid json'\\)\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
